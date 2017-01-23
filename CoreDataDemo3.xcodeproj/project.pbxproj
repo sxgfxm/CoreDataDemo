@@ -14,6 +14,8 @@
 		A02E9F991E359DF900CF88D8 /* CoreDataDemo3.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = A02E9F971E359DF900CF88D8 /* CoreDataDemo3.xcdatamodeld */; };
 		A02E9F9B1E359DF900CF88D8 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A02E9F9A1E359DF900CF88D8 /* Assets.xcassets */; };
 		A02E9F9E1E359DF900CF88D8 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A02E9F9C1E359DF900CF88D8 /* LaunchScreen.storyboard */; };
+		A02E9FA91E35AB5500CF88D8 /* SportSession+CoreDataClass.m in Sources */ = {isa = PBXBuildFile; fileRef = A02E9FA61E35AB5500CF88D8 /* SportSession+CoreDataClass.m */; };
+		A02E9FAA1E35AB5500CF88D8 /* SportSession+CoreDataProperties.m in Sources */ = {isa = PBXBuildFile; fileRef = A02E9FA81E35AB5500CF88D8 /* SportSession+CoreDataProperties.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -28,6 +30,10 @@
 		A02E9F9A1E359DF900CF88D8 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		A02E9F9D1E359DF900CF88D8 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		A02E9F9F1E359DF900CF88D8 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		A02E9FA51E35AB5500CF88D8 /* SportSession+CoreDataClass.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SportSession+CoreDataClass.h"; sourceTree = "<group>"; };
+		A02E9FA61E35AB5500CF88D8 /* SportSession+CoreDataClass.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SportSession+CoreDataClass.m"; sourceTree = "<group>"; };
+		A02E9FA71E35AB5500CF88D8 /* SportSession+CoreDataProperties.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "SportSession+CoreDataProperties.h"; sourceTree = "<group>"; };
+		A02E9FA81E35AB5500CF88D8 /* SportSession+CoreDataProperties.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "SportSession+CoreDataProperties.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -44,6 +50,10 @@
 		A02E9F7F1E359DF900CF88D8 = {
 			isa = PBXGroup;
 			children = (
+				A02E9FA51E35AB5500CF88D8 /* SportSession+CoreDataClass.h */,
+				A02E9FA61E35AB5500CF88D8 /* SportSession+CoreDataClass.m */,
+				A02E9FA71E35AB5500CF88D8 /* SportSession+CoreDataProperties.h */,
+				A02E9FA81E35AB5500CF88D8 /* SportSession+CoreDataProperties.m */,
 				A02E9F8A1E359DF900CF88D8 /* CoreDataDemo3 */,
 				A02E9F891E359DF900CF88D8 /* Products */,
 			);
@@ -113,6 +123,7 @@
 				TargetAttributes = {
 					A02E9F871E359DF900CF88D8 = {
 						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = TVSDM83893;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -156,6 +167,8 @@
 				A02E9F931E359DF900CF88D8 /* ViewController.m in Sources */,
 				A02E9F991E359DF900CF88D8 /* CoreDataDemo3.xcdatamodeld in Sources */,
 				A02E9F901E359DF900CF88D8 /* AppDelegate.m in Sources */,
+				A02E9FAA1E35AB5500CF88D8 /* SportSession+CoreDataProperties.m in Sources */,
+				A02E9FA91E35AB5500CF88D8 /* SportSession+CoreDataClass.m in Sources */,
 				A02E9F8D1E359DF900CF88D8 /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -274,6 +287,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TVSDM83893;
 				INFOPLIST_FILE = CoreDataDemo3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobvoi.CoreDataDemo3;
@@ -285,6 +299,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = TVSDM83893;
 				INFOPLIST_FILE = CoreDataDemo3/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.mobvoi.CoreDataDemo3;
